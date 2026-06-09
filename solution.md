@@ -35,3 +35,16 @@ Containerization is preferred because:
 
 Docker containers start quickly and can be easily moved between environments, making them a standard choice for modern DevOps practices.
 
+## Task 2: Sample Application
+
+A simple static web application was created using HTML.
+
+Application File:
+
+- app/index.html
+
+Purpose:
+
+- Display a simple "Hello, Docker!" web page.
+- This application will be containerized using Docker in the next task.
+
