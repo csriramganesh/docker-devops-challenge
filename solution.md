@@ -48,3 +48,22 @@ Purpose:
 - Display a simple "Hello, Docker!" web page.
 - This application will be containerized using Docker in the next task.
 
+
+## Task 2: Dockerfile Creation and Image Build
+
+A Dockerfile was created using the nginx:alpine base image.
+
+Steps performed:
+
+1. Created Dockerfile
+2. Built Docker image
+3. Ran container
+4. Verified running container
+5. Tested application through browser
+
+Commands Used:
+
+docker build -t sample-app:latest .
+docker run -d -p 80:80 --name sample-app sample-app:latest
+docker ps
+docker logs sample-app
