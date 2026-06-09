@@ -49,7 +49,7 @@ Purpose:
 - This application will be containerized using Docker in the next task.
 
 
-## Task 2: Dockerfile Creation and Image Build
+## Task 3: Dockerfile Creation and Image Build
 
 A Dockerfile was created using the nginx:alpine base image.
 
@@ -70,7 +70,7 @@ docker logs sample-app
 
 
 
-## Task 3: Docker Terminologies and Components
+## Task 4: Docker Terminologies and Components
 
 ### Docker Image
 
@@ -123,3 +123,80 @@ Docker Hub is a cloud-based registry used to store and share Docker Images.
 3. Docker Daemon manages images and containers.
 4. Docker Hub is used to pull and push images when required.
 
+
+## Task 5: Multi-Stage Docker Build
+
+A multi-stage Docker build was implemented to demonstrate image optimization.
+
+Steps Performed:
+
+1. Created Dockerfile.multistage
+2. Built optimized image
+3. Compared image sizes
+4. Ran container using optimized image
+
+Benefits of Multi-Stage Builds:
+
+- Smaller final image
+- Reduced attack surface
+- Faster image pulls
+- Better security
+- Cleaner production deployments
+
+Image Comparison:
+
+The original image and multi-stage image were compared using:
+
+docker images
+
+For larger applications, multi-stage builds can significantly reduce image size by excluding unnecessary build dependencies.
+
+
+## Task 6: Docker Hub
+
+Steps Performed:
+
+1. Tagged local image
+2. Logged into Docker Hub
+3. Pushed image to Docker Hub
+4. Verified repository creation
+5. Pulled image from Docker Hub
+
+Commands Used:
+
+docker tag sample-app:latest <username>/sample-app:v1.0
+docker push <username>/sample-app:v1.0
+docker pull <username>/sample-app:v1.0
+
+Benefits:
+
+- Centralized image storage
+- Easy sharing of applications
+- Version control through image tags
+- Supports CI/CD deployment workflows
+
+## Task 7: Docker Volumes
+
+A Docker volume was created to demonstrate persistent storage.
+
+Steps Performed:
+
+1. Created volume
+2. Mounted volume inside container
+3. Created data inside mounted volume
+4. Removed container
+5. Recreated container
+6. Verified data persistence
+
+Commands Used:
+
+docker volume create my_volume
+docker volume ls
+
+Benefits of Docker Volumes:
+
+- Persistent storage
+- Data survives container removal
+- Easy backup and migration
+- Shared storage between containers
+- Recommended for databases and stateful applications
