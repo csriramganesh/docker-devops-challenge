@@ -200,3 +200,28 @@ Benefits of Docker Volumes:
 - Easy backup and migration
 - Shared storage between containers
 - Recommended for databases and stateful applications
+
+## Task 8: Docker Networking
+
+A custom Docker network was created to enable communication between containers.
+
+Steps Performed:
+
+1. Created custom network
+2. Connected application container
+3. Connected MySQL container
+4. Verified network membership
+
+Commands Used:
+
+docker network create my_network
+docker network ls
+docker network inspect my_network
+
+Benefits of Docker Networking:
+
+- Container-to-container communication
+- Service discovery using container names
+- Network isolation
+- Support for multi-container applications
+- Essential for microservices architecture
