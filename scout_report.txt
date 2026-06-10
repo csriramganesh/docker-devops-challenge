@@ -1,0 +1,94 @@
+
+
+## Overview
+
+                   │         Analyzed Image          
+───────────────────┼─────────────────────────────────
+ Target            │  csriramganesh/sample-app:v1.0  
+   digest          │  3a476fd17f80                   
+   platform        │ linux/amd64                     
+   vulnerabilities │    0C     2H     9M     0L      
+   size            │ 26 MB                           
+   packages        │ 87                              
+
+
+## Packages and Vulnerabilities
+
+   0C     2H     6M     0L  curl 8.19.0-r0
+pkg:apk/alpine/curl@8.19.0-r0?os_name=alpine&os_version=3.23
+
+    ✗ HIGH CVE-2026-6276
+      https://scout.docker.com/v/CVE-2026-6276?s=alpine&n=curl&ns=alpine&t=apk&osn=alpine&osv=3.23&vr=%3C%3D8.19.0-r0
+      Affected range : <=8.19.0-r0 
+      Fixed version  : not fixed   
+    
+    ✗ HIGH CVE-2026-5773
+      https://scout.docker.com/v/CVE-2026-5773?s=alpine&n=curl&ns=alpine&t=apk&osn=alpine&osv=3.23&vr=%3C%3D8.19.0-r0
+      Affected range : <=8.19.0-r0 
+      Fixed version  : not fixed   
+    
+    ✗ MEDIUM CVE-2026-5545
+      https://scout.docker.com/v/CVE-2026-5545?s=alpine&n=curl&ns=alpine&t=apk&osn=alpine&osv=3.23&vr=%3C%3D8.19.0-r0
+      Affected range : <=8.19.0-r0 
+      Fixed version  : not fixed   
+    
+    ✗ MEDIUM CVE-2026-6253
+      https://scout.docker.com/v/CVE-2026-6253?s=alpine&n=curl&ns=alpine&t=apk&osn=alpine&osv=3.23&vr=%3C%3D8.19.0-r0
+      Affected range : <=8.19.0-r0 
+      Fixed version  : not fixed   
+    
+    ✗ MEDIUM CVE-2026-4873
+      https://scout.docker.com/v/CVE-2026-4873?s=alpine&n=curl&ns=alpine&t=apk&osn=alpine&osv=3.23&vr=%3C%3D8.19.0-r0
+      Affected range : <=8.19.0-r0 
+      Fixed version  : not fixed   
+    
+    ✗ MEDIUM CVE-2026-7168
+      https://scout.docker.com/v/CVE-2026-7168?s=alpine&n=curl&ns=alpine&t=apk&osn=alpine&osv=3.23&vr=%3C%3D8.19.0-r0
+      Affected range : <=8.19.0-r0 
+      Fixed version  : not fixed   
+    
+    ✗ MEDIUM CVE-2026-7009
+      https://scout.docker.com/v/CVE-2026-7009?s=alpine&n=curl&ns=alpine&t=apk&osn=alpine&osv=3.23&vr=%3C%3D8.19.0-r0
+      Affected range : <=8.19.0-r0 
+      Fixed version  : not fixed   
+    
+    ✗ MEDIUM CVE-2026-6429
+      https://scout.docker.com/v/CVE-2026-6429?s=alpine&n=curl&ns=alpine&t=apk&osn=alpine&osv=3.23&vr=%3C%3D8.19.0-r0
+      Affected range : <=8.19.0-r0 
+      Fixed version  : not fixed   
+    
+
+   0C     0H     1M     0L  libxml2 2.13.9-r0
+pkg:apk/alpine/libxml2@2.13.9-r0?os_name=alpine&os_version=3.23
+
+    ✗ MEDIUM CVE-2026-6732
+      https://scout.docker.com/v/CVE-2026-6732?s=alpine&n=libxml2&ns=alpine&t=apk&osn=alpine&osv=3.23&vr=%3C2.13.9-r1
+      Affected range : <2.13.9-r1 
+      Fixed version  : 2.13.9-r1  
+    
+
+   0C     0H     1M     0L  busybox 1.37.0-r30
+pkg:apk/alpine/busybox@1.37.0-r30?os_name=alpine&os_version=3.23
+
+    ✗ MEDIUM CVE-2025-60876
+      https://scout.docker.com/v/CVE-2025-60876?s=alpine&n=busybox&ns=alpine&t=apk&osn=alpine&osv=3.23&vr=%3C%3D1.37.0-r30
+      Affected range : <=1.37.0-r30 
+      Fixed version  : not fixed    
+    
+
+   0C     0H     1M     0L  freetype 2.14.1-r0
+pkg:apk/alpine/freetype@2.14.1-r0?os_name=alpine&os_version=3.23
+
+    ✗ MEDIUM CVE-2026-23865
+      https://scout.docker.com/v/CVE-2026-23865?s=alpine&n=freetype&ns=alpine&t=apk&osn=alpine&osv=3.23&vr=%3C%3D2.14.1-r0
+      Affected range : <=2.14.1-r0 
+      Fixed version  : not fixed   
+    
+
+
+11 vulnerabilities found in 4 packages
+  CRITICAL  0 
+  HIGH      2 
+  MEDIUM    9 
+  LOW       0 
+

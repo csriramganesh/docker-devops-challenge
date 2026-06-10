@@ -254,3 +254,32 @@ Benefits of Docker Compose:
 - Easy environment replication
 - Centralized service configuration
 - Better developer productivity
+
+## Task 10: Docker Security Analysis
+
+A vulnerability scan was performed on the Docker image.
+
+Tool Used:
+
+- Docker Scout / Trivy
+
+Scan Objectives:
+
+- Identify vulnerabilities
+- Review affected packages
+- Assess severity levels
+- Understand remediation recommendations
+
+Findings Summary:
+
+- Vulnerabilities were categorized by severity.
+- Security analysis helps identify risks before deployment.
+- Base image selection significantly impacts overall security posture.
+
+Recommendations:
+
+- Use minimal base images.
+- Regularly update dependencies.
+- Rebuild images frequently.
+- Scan images before production deployment.
+- Follow container security best practices.
