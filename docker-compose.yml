@@ -1,0 +1,21 @@
+services:
+  sample-app:
+    image: sample-app:latest
+    container_name: sample-app-compose
+    ports:
+      - "80:80"
+    networks:
+      - app-network
+
+  my-db:
+    image: mysql:latest
+    container_name: my-db-compose
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "3306:3306"
+    networks:
+      - app-network
+
+networks:
+  app-network:

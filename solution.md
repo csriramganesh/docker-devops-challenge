@@ -225,3 +225,32 @@ Benefits of Docker Networking:
 - Network isolation
 - Support for multi-container applications
 - Essential for microservices architecture
+
+## Task 9: Docker Compose
+
+Docker Compose was used to manage multiple containers through a single configuration file.
+
+Services Configured:
+
+1. sample-app
+2. my-db
+
+Resources Configured:
+
+- Network
+- Containers
+- Environment Variables
+
+Commands Used:
+
+docker compose up -d
+docker compose ps
+docker compose down
+
+Benefits of Docker Compose:
+
+- Simplified multi-container deployment
+- Infrastructure as code
+- Easy environment replication
+- Centralized service configuration
+- Better developer productivity
